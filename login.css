@@ -1,0 +1,84 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+}
+
+.contenedor{
+	width: 100vw;
+	height: 100vh;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+
+}
+
+.volver{
+    margin: 30px;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+.derecha{
+	display: grid;
+	grid-template-rows: 30px 1fr;
+	align-items: center;
+	background-color: #376A45;
+}
+
+.derecha .info{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	color: #ffffff;
+
+}
+
+.info .logo{
+	font-size: 40px;
+	margin-bottom: 10px;
+}
+
+.info h1{
+	margin: 10px;
+	text-align: center;
+}
+
+.info a{
+	text-decoration: none;
+	color: #102F18;
+}
+
+.formulario{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.formulario input{
+	outline: none;
+	padding: 5px;
+	margin: 10px;
+	border-radius: 100px;
+	border: 2px solid #376A45; 
+	font-size: 1em;
+}
+
+.formulario span{
+	margin-top: 15px;
+}
+
+.formulario span a{
+	padding: 10px 50px;
+	text-decoration: none;
+	color: #FFFFFF;
+	background-color: #376A45;
+	border-radius: 20px;
+}
+
+@media (max-width: 600px){
+	.contenedor{
+		display: grid;
+		grid-template-columns: 1fr;
+	}
+}

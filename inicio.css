@@ -1,0 +1,411 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+}
+
+nav{
+
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #376A45;
+	height: 80px;
+	width: 100%;
+	position: fixed;
+	z-index: 2;
+	
+}
+
+nav ul{
+	display: flex;
+	list-style: none;
+}
+
+nav ul li{
+	padding: 1em;
+}
+
+nav ul li a{
+	padding: 0.5em;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+nav ul li a:hover{
+	border-bottom: solid 2px #FFFFFF;
+}
+
+
+.menu{
+	padding: 20px;
+	display: none;
+}
+
+.logo{
+	margin: 1em;
+	font-size: 30px;
+	color: #FFFFFF;
+}
+
+.iconos{
+	display: flex;
+	align-items: center;
+	margin: 5px;
+	z-index: 3;
+	background-color: #376A45;
+}
+
+.corazon a{
+	margin: 0.5em;
+	font-size: 15px;
+	color: #FFFFFF;
+}
+
+.carrito a{
+	margin: 0.5em;
+	font-size: 15px;
+	color: #FFFFFF;
+}
+
+.user a{
+	margin: 0.3em;
+	font-size: 30px;
+	color: #FFFFFF;
+}
+
+input{
+	outline: none;
+	width: 60px;
+	padding: 5px;
+	border: 0; 
+	font-size: 15px;
+	color: #FFFFFF;
+	background-color: #376A45;
+}
+
+input:focus{
+	border-bottom: 2px solid #FFFFFF;
+	width: 100px;
+}
+
+.contenido{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.filtroicono{
+	display: none;
+	padding: 10px;
+}
+
+.filtros{
+	display: flex;
+	flex-direction: column;
+	margin: 1em;
+	margin-top: 100px;
+	position: fixed;
+}
+
+.sec{
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+.filtros .sec h3{
+	margin-bottom: 0.5em; 
+}
+
+.franja{
+	width: 80%;
+	height: 2px;
+	
+	background-color: #C4C4C4;
+}
+
+.plantas{
+	
+	grid-area: plantas;
+}
+
+
+.filtros input{
+	margin: 0.5em 0em 0.5em 0em;
+}
+
+.circulo{
+	width: 15px;
+	height: 15px;
+	border-radius: 10px;
+}
+.rojo{
+	background-color: #FF0000;
+}
+.amarillo{
+	background-color: #FFE600;
+}
+.naranja{
+	background-color: #FF9900;
+}
+.verde{
+	background-color: #33FF00;
+}
+.cian{
+	background-color: #00E0FF;
+}
+.azul{
+	background-color: #0066FF;
+}
+.fucsia{
+	background-color: #E100BD;
+}
+.rosa{
+	background-color: #FF005C;
+}
+.morado{
+	background-color: #250C8B;
+}
+
+.colorines{
+	display: grid;
+	grid-template-columns: repeat(3, 15px);
+	grid-gap: 15px;
+}
+
+.galeria{
+	display: grid;
+	margin-top: 150px;
+	margin-left: 250px;
+	margin-right: 50px;
+	width: 100%;
+	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+	grid-gap: 30px;
+}
+
+.imagen{
+	height: 300px;
+	
+}
+
+.hover{
+	opacity: 0;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(0deg, #00000066 40%, #ffffff44 90%);
+}
+
+.galeria a{
+	position: relative;
+}
+
+.hover:hover{
+	opacity: 1;
+}
+
+
+.i1{
+	width: 100%;
+	background-image: url(imagenes/sarah-dorweiler-x2Tmfd1-SgA-unsplash.jpg);
+	background-size: cover;
+}
+
+.i2{
+	width: 100%;
+	background-image: url(imagenes/lauren-mancke-DpphPG9ENsI-unsplash.jpg);
+	background-size: cover;
+}
+
+.i3{
+	width: 100%;
+	background-image: url(imagenes/tanalee-youngblood-CMdQcxsWZE0-unsplash.jpg);
+	background-size: cover;
+}
+
+.i4{
+	width: 100%;
+	background-image: url(imagenes/scott-webb-C6oPXOatFD8-unsplash.jpg);
+	background-size: cover;
+}
+
+.i5{
+	width: 100%;
+	background-image: url(imagenes/pawel-czerwinski-7EuUsw99KhE-unsplash.jpg);
+	background-size: cover;
+}
+
+.i6{
+	width: 100%;
+	background-image: url(imagenes/jessica-arends-yzPWspWSDm0-unsplash.jpg);
+	background-size: cover;
+}
+
+.i7{
+	width: 100%;
+	background-image: url(imagenes/yi-sk-yuFvmjQa0gU-unsplash.jpg);
+	background-size: cover;
+}
+
+.i8{
+	width: 100%;
+	background-image: url(imagenes/jazmin-quaynor-8ioenvmof-I-unsplash.jpg);
+	background-size: cover;
+}
+
+.i9{
+	width: 100%;
+	background-image: url(imagenes/sarah-dorweiler-2s9aHF4eCjI-unsplash.jpg);
+	background-size: cover;
+}
+
+.i10{
+	width: 100%;
+	background-image: url(imagenes/alex-loup-mwINQsW2KJs-unsplash.jpg);
+	background-size: cover;
+}
+
+.i11{
+	width: 100%;
+	background-image: url(imagenes/kari-shea-tcgMBsW4zlU-unsplash.jpg);
+	background-size: cover;
+}
+
+.i12{
+	width: 100%;
+	background-image: url(imagenes/melek-meloshtain-10X8S25MJSc-unsplash.jpg);
+	background-size: cover;
+}
+
+.i13{
+	width: 100%;
+	background-image: url(imagenes/sarah-dorweiler-x2Tmfd1-SgA-unsplash.jpg);
+	background-size: cover;
+}
+
+.i14{
+	width: 100%;
+	background-image: url(imagenes/lauren-mancke-DpphPG9ENsI-unsplash.jpg);
+	background-size: cover;
+}
+
+.i15{
+	background-image: url(imagenes/tanalee-youngblood-CMdQcxsWZE0-unsplash.jpg);
+	background-size: cover;
+}
+
+.i16{
+	background-image: url(imagenes/scott-webb-C6oPXOatFD8-unsplash.jpg);
+	background-size: cover;
+}
+
+.i17{
+	background-image: url(imagenes/pawel-czerwinski-7EuUsw99KhE-unsplash.jpg);
+	background-size: cover;
+}
+
+.i18{
+	background-image: url(imagenes/jessica-arends-yzPWspWSDm0-unsplash.jpg);
+	background-size: cover;
+}
+
+.i19{
+	background-image: url(imagenes/yi-sk-yuFvmjQa0gU-unsplash.jpg);
+	background-size: cover;
+}
+
+.i20{
+	background-image: url(imagenes/jazmin-quaynor-8ioenvmof-I-unsplash.jpg);
+	background-size: cover;
+}
+
+.i21{
+	background-image: url(imagenes/sarah-dorweiler-2s9aHF4eCjI-unsplash.jpg);
+	background-size: cover;
+}
+
+.i22{
+	background-image: url(imagenes/alex-loup-mwINQsW2KJs-unsplash.jpg);
+	background-size: cover;
+}
+
+.i23{
+	background-image: url(imagenes/kari-shea-tcgMBsW4zlU-unsplash.jpg);
+	background-size: cover;
+}
+
+.i24{
+	background-image: url(imagenes/melek-meloshtain-10X8S25MJSc-unsplash.jpg);
+	background-size: cover;
+}
+
+ul.show{
+	top: 80px;
+}
+
+.filtros.show{
+	left: 0;
+	top: 40px;
+}
+
+@media(max-width: 900px){
+
+	.menu{
+		display: inline-flex;
+		color: #FFFFFF;
+	}
+
+	.botonera{
+		position: fixed;
+		width: 40vw;
+		right: 0;
+		flex-direction: column;
+		top: -100vh;
+		text-align: center;
+		transition: all 0.5s;
+		background-color:#376A45;
+		z-index: -1;
+	}
+
+	.botonera li a:hover{
+		border-bottom: solid 2px #FFFFFF;
+	}
+
+	@media(max-width: 700px){
+
+		.filtroicono{
+			position: fixed;
+			display: inline-flex;
+			margin-top: 100px;
+			margin-left: 1em;
+			font-size: 25px;
+			color:#376A45;
+			z-index: 5;
+		}
+
+		.filtros{
+			position: fixed;
+			padding: 1em;
+			top: 40px;
+			left: -250px;
+			transition: all 0.5s;
+			background-color: #FFFFFF;
+			z-index: 5;
+		}
+
+
+		.galeria{
+			width: 80vw;
+			margin-left: 5em;
+		}
+
+
+	}
+
+	
+
+
+
+}
+
+
